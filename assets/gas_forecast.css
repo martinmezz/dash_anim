@@ -1,0 +1,133 @@
+/* Wells filter menu button */
+#gas-filter-menu-btn {
+  color: #000000;
+  background-color: #ffffff;
+  border: 1px solid;
+  border-color: rgb(0, 0, 0);
+}
+
+#gas-filter-menu-btn:hover {
+  color: #78C2AD;
+  background-color: #ffffff;
+  border: 1px solid;
+  border-color: #78C2AD;
+}
+
+
+/* Decline menu button */
+#gas-decline-menu-btn {
+  color: #000000;
+  background-color: #ffffff;
+  border: 1px solid;
+  border-color: rgb(0, 0, 0);
+}
+
+#gas-decline-menu-btn:hover {
+  color: #78C2AD;
+  background-color: #ffffff;
+  border: 1px solid;
+  border-color: #78C2AD;
+}
+
+
+/* Wells filter menu toast */
+#gas-filter-menu-toast {
+  background-color: #cfcfcf;
+  z-index: 1000;
+}
+
+
+/* Wells decline menu toast */
+#gas-decline-menu-toast {
+  background-color: #cfcfcf;
+  z-index: 1000;
+}
+
+
+/* Export default button */
+#gas-history-forecasts-table button.export {
+  display: none;
+}
+
+#gas-wells-info-table button.export {
+  display: none;
+}
+
+#gas-EUR-forecasts-table button.export {
+  display: none;
+}
+
+
+/* Sliders */
+#gas-latlength-slider {
+  padding: 0 !important;
+  padding-left: 5px !important;
+  padding-right: 35px !important;
+}
+
+#gas-fracs-slider {
+  padding: 0 !important;
+  padding-left: 5px !important;
+  padding-right: 35px !important;
+}
+
+
+/* Clear buttons */
+#gas-datepicker-clear {
+  color: #6b6b6b;
+  background-color: #cfcfcf00;
+  border-color: #cfcfcf00;
+  border: 0;
+}
+
+#gas-geometry-clear {
+  color: #6b6b6b;
+  background-color: #cfcfcf00;
+  border-color: #cfcfcf00;
+  border: 0;
+}
+
+#gas-formation-clear {
+  color: #6b6b6b;
+  background-color: #cfcfcf00;
+  border-color: #cfcfcf00;
+  border: 0;
+}
+
+#gas-field-clear {
+  color: #6b6b6b;
+  background-color: #cfcfcf00;
+  border-color: #cfcfcf00;
+  border: 0;
+}
+
+#gas-latlength-clear {
+  color: #6b6b6b;
+  background-color: #cfcfcf00;
+  border-color: #cfcfcf00;
+  border: 0;
+}
+
+#gas-fracs-clear {
+  color: #6b6b6b;
+  background-color: #cfcfcf00;
+  border-color: #cfcfcf00;
+  border: 0;
+}
+
+#gas-wells-clear {
+  color: #6b6b6b;
+  background-color: #cfcfcf00;
+  border-color: #cfcfcf00;
+  border: 0;
+}
+
+
+/* Tooltips */
+#gas-a-tooltip {
+  color: rgb(255, 97, 97);
+}
+
+#gas-select-all-warning {
+  color: rgb(255, 97, 97);
+}

@@ -1,0 +1,28 @@
+{
+    "TRELLO": {
+        "APIKEY": "3338cb3bba89983a534cbc3fa1147ba8",
+        "TOKEN": "1ed2ec6ec735a63caf78f89d8f968fb98ffe6126b10dd9e9b5e001c714aa5b19"
+    },
+
+    "DB": {
+        "DEVELOPMENT": {
+            "DRIVER": "ODBC+Driver+17+for+SQL+Server",
+            "SERVER": "DESKTOP-97Q1DPS\\FDC",
+            "DATABASE": "SEN_NOC",
+            "USER": null,
+            "PASS": null,
+            "TRUSTED": "yes"
+        },
+
+        "PRODUCTION": {
+            "DRIVER": "ODBC+Driver+17+for+SQL+Server",
+            "SERVER": "fdcserver.database.windows.net",
+            "DATABASE": "SEN_NOC",
+            "USER": "fdcazure",
+            "PASS": "foxtrotcharliedelta833!",
+            "TRUSTED": "no"
+        }
+    },
+
+    "VERSION": "v 0.7.5"
+}

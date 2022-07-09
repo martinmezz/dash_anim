@@ -1,0 +1,411 @@
+body {
+  background-color: #bebebe;
+  font-family: sans-serif;
+}
+
+#page-content {
+  padding: 15px 15px 0px 15px;
+}
+
+/* Containers */
+#container {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+.left-expanded {
+  padding-left: 16rem !important;
+  padding-right: 0 !important;
+}
+
+.left-collapsed {
+  padding-left: 3rem !important;
+  padding-right: 0 !important;
+}
+
+.left-collapsed-right-expanded {
+  padding-left: 3rem !important;
+  padding-right: 16rem !important;
+}
+
+.left-collapsed-right-collapsed {
+  padding-left: 3rem !important;
+  padding-right: 3rem !important;
+}
+
+.left-expanded-right-expanded {
+  padding-left: 16rem !important;
+  padding-right: 16rem !important;
+}
+
+.left-expanded-right-collapsed {
+  padding-left: 16rem !important;
+  padding-right: 3rem !important;
+}
+
+.hide-element {
+  display: none;
+}
+
+.row {
+  margin: 0 !important;
+}
+
+.col-no-gutters {
+  padding: 0 !important;
+}
+
+
+.toast-body {
+  padding: 0.5rem !important;
+  background-color: rgba(255, 255, 255, 0.8) !important;
+}
+
+.toast-msg {
+  position: fixed;
+  margin: 0px !important;
+  bottom: 10px;
+  right: 10px;
+  width: 350px;
+  background-color: #ffffff;
+}
+
+
+/* Dropdowns */
+.VirtualizedSelectFocusedOption {
+  background-color: #3a728720;
+}
+
+
+/* Other elements */
+h1, h2, h3, h4, h5, h6 {
+  color: #000000
+}
+
+p {
+  margin-bottom: 0px !important;
+}
+
+button:focus {
+  outline: none
+}
+
+#signout-btn {
+  background: #873a3a;
+  height: 25px;
+  width: 40%;
+  padding: 3px;
+  display: flex;
+  justify-content: space-evenly;
+  text-decoration: none;
+}
+
+#signout-btn:hover {
+  color: white;
+}
+
+.control-input {
+  font-size: 13px;
+  font-family: 'montserrat';
+  width: 80px;
+}
+
+.control-input-wide {
+  font-size: 13px;
+  font-family: 'montserrat';
+  width: 203px;
+}
+
+.control-input-datepicker > .SingleDatePicker div > .DateInput > .DateInput_input_1 {
+  height: 22px;
+}
+
+.control-icon {
+  height: 14px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.control-btn {
+  border-radius: 20px;
+  border-width: 0px;
+  background: #3a7287;
+  font-family: 'Montserrat';
+  font-size: 14px;
+  font-weight: 500;
+  color: white;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.div-flex-row {
+  display: flex;
+}
+
+input:disabled {
+  background-color: #e2e2e2;
+  border: solid;
+  border-width: 1px;
+  border-radius: 2px;
+  border-color: #cccccc !important;
+}
+
+.card {
+  margin: 0px 0px 15px 0px;
+  padding: 5px;
+  background-color: #ececec;
+  box-shadow: 0px 2px 3px;
+}
+
+.card-header {
+  color: #414141;
+  background-color: #ececec;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+.card-title {
+  font-size: 18px;
+  padding: 0;
+  margin: 0;
+}
+
+.toggle-scale {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.daq-toggleswitch--light__button {
+  background: white;
+  box-shadow: 0px 1px 2px #777777;
+}
+
+.daq-toggleswitch--light__background {
+  background: #c0bfbe !important;
+  display: flex !important;
+  align-items: center !important;
+  height: 12px !important;
+}
+
+.daq-toggleswitch--light__indicator--off {
+  background: white !important;
+}
+
+.daq-toggleswitch--light__indicator--on {
+  background: #2e82b9 !important;
+}
+
+.toggle-switch-colored div .daq-toggleswitch--light > .daq-toggleswitch--light__background {
+  background: #3a7287 !important;
+  display: flex !important;
+  align-items: center !important;
+  height: 12px !important;
+}
+
+.control-title {
+  font-size: 14px;
+  margin: 0;
+}
+
+.control-div {
+  padding: 0px !important;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  margin-bottom: 10px;
+}
+
+.control-div-row {
+  padding: 0 !important;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.control-div-row-flex-end {
+  padding: 0 !important;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  margin-bottom: 10px;
+}
+
+.no-padding-display-flex {
+  padding: 0 !important;
+  display: flex;
+  align-items: center;
+}
+
+.no-padding-display-flex-end {
+  padding: 0 !important;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.dropdown-control {
+  color: #aaaaaa;
+  background-color: #ffffff;
+  width: 80%;
+  font-size: 13px;
+  height: 24px;
+  border-color: #cfcfcf00;
+  border-radius: 0.25rem;
+  text-align: left;
+  font-family: 'montserrat';
+}
+
+.dropdown-control-wide {
+  color: #aaaaaa;
+  background-color: #ffffff;
+  width: 18rem;
+  font-size: 13px;
+  height: 24px;
+  border-color: #cfcfcf00;
+  border-radius: 0.25rem;
+  text-align: left;
+  font-family: 'montserrat';
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.dash-spreadsheet-container::-webkit-scrollbar:horizontal {
+  display: block;
+  height: 0.8rem;
+}
+
+.dash-spreadsheet-container::-webkit-scrollbar-track {
+  background-color: #bebebe;
+}
+
+.dash-spreadsheet-container::-webkit-scrollbar-thumb {
+  background-color: #ffffff;
+  border: 1px solid rgb(143, 143, 143);
+  border-radius: 10px;
+}
+
+.dash-spreadsheet-container::-webkit-scrollbar-thumb:hover {
+  background-color: #3a7287;
+  border: 1px solid #3a7287;
+  border-radius: 10px;
+}
+
+.Select-input {
+  height: 22px !important;
+}
+
+.Select-control {
+  height: 22px !important;
+}
+
+.Select-placeholder {
+  line-height: 22px !important;
+}
+
+.Select-multi-value-wrapper > .Select-value {
+  line-height: 22px !important;
+}
+
+.Select.is-disabled > .Select-control {
+  background-color: #e2e2e2 !important;
+}
+
+.nav-tabs .nav-link {
+  color: #414141;
+  background-color: #e2e2e2;
+}
+
+.nav-tabs .nav-link:hover {
+  color: #414141;
+  background-color: #ebebeb;
+}
+
+#login-toast {
+  z-index: 1000;
+}
+
+#submit-toast {
+  z-index: 1000;
+}
+
+#db-toast {
+  z-index: 1000;
+}
+
+#db2-toast {
+  z-index: 1000;
+}
+
+#user-config-toast {
+  z-index: 1000;
+  position: fixed !important;
+  top: 32px !important;
+  right: 3px !important;
+  width: 700px !important;
+  height: 280px !important;
+  box-shadow: -1px 1px 10px;
+}
+
+.social-media-button {
+  color: #878a8d;
+  background-color: #cfcfcf00;
+  border-color: #cfcfcf00;
+}
+
+.social-media-button:hover {
+  color: #4a86be;
+  background-color: #264fbe00;
+  border-color: #b9b9b9;
+}
+
+
+/* DatePicker Range */
+#date-picker-input .DateInput_input, .DateInput_input_1 {
+  height: 30px;
+  font-size: 14px;
+}
+
+.datepicker-col {
+  padding-right: 0px;
+}
+
+
+/* Checkboxes */
+#graph_config label {
+  color: rgb(0, 0, 0);
+  flex: 2;
+}
+
+#graph_scale label {
+  color: rgb(0, 0, 0);
+  flex: 2;
+}
+
+#config_plot label {
+  color: rgb(0, 0, 0);
+  flex: 2;
+}
+
+
+/* Sliders */
+.rc-slider-handle {
+  border-color:#6b6b6b;
+}
+
+.rc-slider-handle:hover {
+  border-color:#78C2AD;
+}
+
+.rc-slider-track {
+  background-color: #2A5261;
+}
+
+.rc-slider-rail {
+  background-color: #ffffff;
+}

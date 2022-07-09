@@ -1,0 +1,35 @@
+/* Header */
+.header {
+    position: sticky;
+    top: 0;
+    height: 2rem;
+    padding: 0.2rem 0.2rem;
+    background-color: #2a5261;
+    z-index: 1001;
+}
+
+/* Header elements */
+.header Img {
+    height: 25px;
+}
+
+#fdc-logo {
+    mix-blend-mode: screen;
+}
+
+.header-username {
+    color: #F7F7F7;
+    display: inline-block;
+    margin-left: 5px;
+}
+
+#user_name_and_img {
+    float: right;
+    margin-right: 15px;
+}
+
+#header-user-arrow {
+    position: absolute;
+    top: 17px;
+    right: 2px;
+}

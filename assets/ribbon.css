@@ -1,0 +1,98 @@
+/* Navbar */
+.ribbon-navbar {
+    position: sticky;
+    top: 2rem;
+    width: 100%;
+    height: 2rem;
+    background: #C0BFBE;
+    z-index: 900;
+}
+
+.nav-pills a {
+    font-family: 'Montserrat';
+    font-style: normal;
+    height: 2rem;
+    font-weight: 400;
+    text-align: center;
+    background-color: #C0BFBE;
+    color: #000000;
+    font-size: 14px !important;
+    padding-top: 3px;
+}
+
+.nav-pills .nav-link.active {
+    font-weight: 800;
+    border-bottom-style: solid;
+    border-bottom-width: 4px;
+    border-bottom-color: #2A5261;
+    background-color: #C0BFBE !important;
+}
+
+.nav-pills a:hover {
+    background-color: #cfcfcf;
+}
+
+/* Ribbon elements */
+#ribbon {
+    position: sticky;
+    top: 4rem;
+    z-index: 800;
+}
+
+.ribbon-btn {
+    border-style: none;
+    height: 3.5rem;
+    background-color: #c0bfbe00;
+    font-family: 'Montserrat';
+    font-size: 13px !important;
+}
+
+.ribbon-btn:hover  {
+    background-color: #cfcfcf;
+    border: 0;
+}
+
+.ribbon-btn-pressed {
+    border-style: none;
+    box-shadow: inset 2px 2px 3px #777777;
+    border-color: #676767;
+    border-width: 1px;
+    border-radius: 2px;
+    background: #cfcfcf;
+    height: 3.5rem;
+    padding: 2px 6px 0px 6px;
+    font-family: 'Montserrat';
+    font-size: 13px !important;
+
+}
+
+.ribbon-icon {
+    height: 32px;
+}
+
+/* Oil ribbon */
+#oil-ribbon {
+    height: 4rem;
+    padding-top: 6px;
+    background: #C0BFBE;
+    display: flex;
+    box-shadow: 0px 4px 4px;
+}
+
+/* Gas ribbon */
+#gas-ribbon {
+    height: 4rem;
+    padding-top: 6px;
+    background: #C0BFBE;
+    display: flex;
+    box-shadow: 0px 4px 4px;
+}
+
+/* Maps ribbon */
+#maps-ribbon {
+    height: 4rem;
+    padding-top: 6px;
+    background: #C0BFBE;
+    display: flex;
+    box-shadow: 0px 4px 4px;
+}

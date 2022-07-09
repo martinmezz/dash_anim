@@ -1,0 +1,15 @@
+#home-title {
+    font-size: 35px;
+}
+
+#home-changelog-button {
+    font-family: 'Montserrat';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#home-changelog-btn-msg {
+    margin: 0px 4px 0px 4px;
+}
+

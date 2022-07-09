@@ -1,0 +1,113 @@
+/* Cards */
+.maps-main-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  height: 100%;
+  margin: 0px 2px !important;
+}
+
+
+/* Plots controls */
+.maps-plots-ctrls {
+  height: 50.8px;
+  display: flex;
+  align-content: flex-end;
+}
+
+
+/* Wells filter menu toast */
+#maps-filter-menu-toast {
+  background-color: #cfcfcf;
+  z-index: 1000;
+}
+
+
+/* Wells forecast menu toast */
+#maps-fc-menu-toast {
+  background-color: #cfcfcf;
+  z-index: 1000;
+}
+
+
+/* Checkboxes */
+#config_map label {
+  color: rgb(0, 0, 0);
+  flex: 2;
+}
+
+
+/* Sliders */
+#maps-latlength-slider {
+  padding: 0 !important;
+  padding-left: 5px !important;
+  padding-right: 35px !important;
+}
+
+#maps-fracs-slider {
+  padding: 0 !important;
+  padding-left: 5px !important;
+  padding-right: 35px !important;
+}
+
+
+/* Clear buttons */
+#maps-datepicker-clear {
+  color: #6b6b6b;
+  background-color: #cfcfcf00;
+  border-color: #cfcfcf00;
+  border: 0;
+}
+
+#maps-geometry-clear {
+  color: #6b6b6b;
+  background-color: #cfcfcf00;
+  border-color: #cfcfcf00;
+  border: 0;
+}
+
+#maps-fluid-clear {
+  color: #6b6b6b;
+  background-color: #cfcfcf00;
+  border-color: #cfcfcf00;
+  border: 0;
+}
+
+#maps-field-clear {
+  color: #6b6b6b;
+  background-color: #cfcfcf00;
+  border-color: #cfcfcf00;
+  border: 0;
+}
+
+#maps-latlength-clear {
+  color: #6b6b6b;
+  background-color: #cfcfcf00;
+  border-color: #cfcfcf00;
+  border: 0;
+}
+
+#maps-fracs-clear {
+  color: #6b6b6b;
+  background-color: #cfcfcf00;
+  border-color: #cfcfcf00;
+  border: 0;
+}
+
+#maps-wells-clear {
+  color: #6b6b6b;
+  background-color: #cfcfcf00;
+  border-color: #cfcfcf00;
+  border: 0;
+}
+
+
+/* Export default button */
+#maps-history-forecasts-table button.export {
+  display: none;
+}
+
+/* Tooltips */
+#map_tooltip {
+  color: rgb(255, 97, 97);
+}

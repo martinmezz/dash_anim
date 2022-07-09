@@ -1,0 +1,44 @@
+/* Wells filter menu toast */
+#oil-filter-menu-toast {
+  background-color: #cfcfcf;
+  z-index: 1000;
+}
+
+.oil-filter-menu-toast-header {
+  background-color: #cfcfcf;
+}
+
+
+/* Wells decline menu toast */
+#oil-decline-menu-toast {
+  background-color: #cfcfcf;
+  z-index: 1000;
+}
+
+
+/* Export default buttons */
+#oil-history-forecasts-table button.export {
+  display: none;
+}
+
+#oil-wells-info-table button.export {
+  display: none;
+}
+
+#oil-EUR-forecasts-table button.export {
+  display: none;
+}
+
+
+/* Sliders */
+#oil-latlength-slider {
+  padding: 0 !important;
+  padding-left: 5px !important;
+  padding-right: 35px !important;
+}
+
+#oil-fracs-slider {
+  padding: 0 !important;
+  padding-left: 5px !important;
+  padding-right: 35px !important;
+}
